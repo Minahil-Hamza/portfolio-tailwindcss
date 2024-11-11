@@ -1,7 +1,7 @@
 import Navbar from "./component/navbar";
 import './globals.css';
 import { Inter } from "next/font/google"; // Ensure the import matches the type you need
-import localFont from "next/font/local";
+// import localFont from "next/font/local";
 import Footer from "./component/footer";
 const inter = Inter({ subsets: ['latin'] });
 

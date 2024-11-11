@@ -1,4 +1,3 @@
-'use client';
 import Image from "next/image";
 import React from "react";
 import Typewriter from "typewriter-effect";
@@ -35,7 +34,7 @@ const Hero = () => {
               alt="hero"
               width={500}
               height={500}
-              src={require("../../../pub/fresh/public/Minah.jpeg")} // Ensure the image is in the public directory for this path to work
+              src="/Minah.jpeg" // Correct path for the public directory
             />
           </div>
         </div>

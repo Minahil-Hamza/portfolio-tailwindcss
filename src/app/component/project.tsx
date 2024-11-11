@@ -19,13 +19,11 @@ const Project = () => {
             {/* Project 1 */}
             <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
               <div className="flex relative">
-              <Image
-  alt="Tic Tac Toe"
-  className="absolute inset-0 w-full h-full object-cover object-center"
-  src={require('../../../pub/fresh/public/tictactoe.png')}
-/>
-
-               
+                <Image
+                  alt="Tic Tac Toe"
+                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  src={'tictactoe.png'}
+                />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">Tic Tac Toe</h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Game</h1>
@@ -43,7 +41,7 @@ const Project = () => {
                 <Image
                   alt="Student ID Card App"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require('../../../pub/fresh/public/Stdcard.png')}
+                  src={'Stdcard.png'}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">Student ID Card App</h2>
@@ -62,7 +60,7 @@ const Project = () => {
                 <Image
                   alt="To-do List"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require('../../../pub/fresh/public/To-do-list.png')}
+                  src={'To-do-list.png'}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">Todo List</h2>
@@ -81,7 +79,7 @@ const Project = () => {
                 <Image
                   alt="CLI Calculator"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require('../../../pub/fresh/public/simplecal.png')}
+                  src={'simplecal.png'}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">CLI Calculator</h2>
@@ -100,7 +98,7 @@ const Project = () => {
                 <Image
                   alt="Weather App"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require('../../../pub/fresh/public/weather.png')}
+                  src={'weather.png'}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">Weather App</h2>
@@ -119,7 +117,7 @@ const Project = () => {
                 <Image
                   alt="Resume Builder"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require('../../../pub/fresh/public/resume.png')}
+                  src={'resume.png'}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">Shareable Link Resume Builder</h2>
